@@ -1,4 +1,10 @@
 {
+  "name": "game-off",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
   "scripts": {
     "dev": "webpack serve",
     "build": "webpack --config webpack.prod.js"
