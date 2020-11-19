@@ -1,8 +1,6 @@
 import Phaser from 'phaser';
-
-function preload() {}
-
-function create() {}
+import preload from './preload';
+import create from './create';
 
 function update() {}
 
@@ -14,7 +12,7 @@ const config = {
   scene: {
     preload: preload,
     create: create,
-    update: update,
+    // update: update,
   },
 };
 
